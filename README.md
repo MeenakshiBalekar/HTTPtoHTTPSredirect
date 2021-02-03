@@ -1,22 +1,26 @@
-# HTTPtoHTTPSredirect
+# HTTP to HTTPS redirection
 Using URL rewrite to redirect request on server from HTTP to HTTPS 
 
 You have to download the URL Rewrite extension on the server from [here](https://www.iis.net/downloads/microsoft/url-rewrite)
 Once installed, head to the IIS Manager and select your site, then URL Rewrite.
 
--- 1.	Step 1 :
+Step 1 :
 go to URL redirect 
-
+https://github.com/MeenakshiBalekar/HTTPtoHTTPSredirect/blob/main/Attachments/1.png
  
 
--- Step 2:
+Step 2:
 Add blank rule :
- 
+https://github.com/MeenakshiBalekar/HTTPtoHTTPSredirect/blob/main/Attachments/2.png 
 
--- Step 3 :
+Step 3 :
 Fill the required fields :
 
- 
+https://github.com/MeenakshiBalekar/HTTPtoHTTPSredirect/blob/main/Attachments/3.png
+
+https://github.com/MeenakshiBalekar/HTTPtoHTTPSredirect/blob/main/Attachments/4.png
+
+https://github.com/MeenakshiBalekar/HTTPtoHTTPSredirect/blob/main/Attachments/5.png
 
 
  
