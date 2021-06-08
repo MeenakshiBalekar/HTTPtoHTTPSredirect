@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+# HTTP to HTTPS redirection
+Using URL rewrite to redirect request on server from HTTP to HTTPS 
 
-You can use the [editor on GitHub](https://github.com/MeenakshiBalekar/HTTPtoHTTPSredirect/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+You have to download the URL Rewrite extension on the server from [here](https://www.iis.net/downloads/microsoft/url-rewrite)
+Once installed, head to the IIS Manager and select your site, then URL Rewrite.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Step 1 :
+go to URL redirect 
+# ![Backup](https://github.com/MeenakshiBalekar/HTTPtoHTTPSredirect/blob/main/Attachments/1.png)
+ 
 
-### Markdown
+- Step 2:
+Add blank rule :
+# ![Backup](https://github.com/MeenakshiBalekar/HTTPtoHTTPSredirect/blob/main/Attachments/2.png )
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Step 3 :
+Fill the required fields :
 
-```markdown
-Syntax highlighted code block
+# ![Backup](https://github.com/MeenakshiBalekar/HTTPtoHTTPSredirect/blob/main/Attachments/3.png)
 
-# Header 1
-## Header 2
-### Header 3
+# ![Backup](https://github.com/MeenakshiBalekar/HTTPtoHTTPSredirect/blob/main/Attachments/4.png)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MeenakshiBalekar/HTTPtoHTTPSredirect/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# ![Backup](https://github.com/MeenakshiBalekar/HTTPtoHTTPSredirect/blob/main/Attachments/5.png)
